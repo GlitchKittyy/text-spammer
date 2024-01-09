@@ -66,15 +66,34 @@ def printBanner():
 def menu():
     clear()
     printBanner()
-    print(f"\n\n\n1. Text Spammer\n2. How to use\n3. About\n4. Exit\n\n")
+    print(f"\n\n\n1. Letter Spammer\n2. How to use\n3. About\n4. Exit\n\n")
     choice = int(input("Enter Choice: "))
-    while choice > 4:
+    while choice > 4 or choice < 0:
         clear()
         printBanner()
-        print(f"\n\n\n1. Text Spammer\n2. How to use\n3. About\n4. Exit\n\n")
+        print(f"\n\n\n1. Letter Spammer\n2. How to use\n3. About\n4. Exit\n\n")
         choice = int(input("Enter Choice: "))
     if choice == 1:
         spammer()
+    elif choice == 2:
+        clear()
+        printBanner()
+        print("\n\n\n"+Fore.WHITE+"How to use\n\n1. Select the Letter Spammer to start the spammer\n2. Type a word/words you want to edit the amount of letters of (spammer)\n3. If you want dont want to edit a letter's amount put a 1\n4. Copy the result and your done!\n\n")
+        input("Done <- ")
+        menu()
+    elif choice == 3:
+        clear()
+        printBanner()
+        print("\n\n\n"+Fore.WHITE+"This isn't done yet..")
+        input("Done <- ")
+    elif choice == 4:
+        words = Fore.YELLOW + "\n[" + Fore.WHITE + "·" + Fore.YELLOW + "]" + Fore.BLUE + " Thanks for using my program!\n\n"
+        for char in words:
+            sleep(0.1)
+            sys.stdout.write(char)
+            sys.stdout.flush()
+        exit()
+        
 
 
 menu()
