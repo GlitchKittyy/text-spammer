@@ -1,18 +1,16 @@
-# Text-Spammer
+# Letter-Spammer
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Overview
 
-Text-Spammer is a Python program that allows you to spam text with style! Customize the repetition of each character to create interesting and eye-catching text patterns.
+Letetr-Spammer is a Python program that allows you to spam letters with style! Customize the repetition of each character to create interesting and eye-catching text patterns. (not done yet)
 
 ## Features
 
-- **Colorful Output**: The program uses the Colorama library to add vibrant colors to the console output.
-
 - **Interactive**: Easily input the word you want the letters customised and specify the repetition count for each character.
 
-- **Customizable**: Tailor your spam text by deciding how many times each character should be repeated.
+- **Customizable**: Tailor your spam word by deciding how many times each character should be repeated.
 
 ## Usage
 
@@ -27,3 +25,7 @@ Text-Spammer is a Python program that allows you to spam text with style! Custom
    python3 run.py
    ```
 3. Have fun!
+
+## Note
+
+- **This is purely made because a friend asked for it**
