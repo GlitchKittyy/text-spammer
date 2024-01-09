@@ -1,4 +1,4 @@
-# Letter-Spammer
+# Text/Letter-Spammer
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
